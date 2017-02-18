@@ -12,11 +12,11 @@ Code Example
 --
 
 ```php
-$bot = new LINEBot(new CurlHTTPClient('your-channel-token'), [
+$bot = new \LINE\LINEBot(new CurlHTTPClient('your-channel-token'), [
     'channelSecret' => 'your-channel-secret'
 ]);
 
-my $multipleMessageBuilder = new LINEBot\MessageBuilder\MultiMessageBuilder();
+my $multipleMessageBuilder = new \LINE\LINEBot\MessageBuilder\MultiMessageBuilder();
 $multipleMessageBuilder->add(new TextMessageBuilder('text1', 'text2'))
                        ->add(new AudioMessageBuilder('https://example.com/audio.mp4', 1000));
 $res = $bot->replyMessage('your-reply-token', $multipleMessageBuilder);
