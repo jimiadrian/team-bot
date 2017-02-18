@@ -1,0 +1,27 @@
+How to create an API client of bot
+--
+
+```php
+$bot = new \LINE\LINEBot(new CurlHTTPClient('your-channel-token'), [
+    'channelSecret' => 'your-channel-secret'
+]);
+```
+
+Simple replying
+--
+
+```php
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('hello');
+$response = $bot->replyMessage('your-reply-token', $textMessageBuilder);
+```
+
+Sample projects
+--
+
+### [Echo bot](/examples/EchoBot)
+
+A sample echo bot implementation.
+
+### [Kitchen sink](/examples/KitchenSink)
+
+A full-stack LINE Messaging API sample implementation. This sample shows you a practical use of the LINE Messaging API.
