@@ -8,6 +8,7 @@ LINE Bot PHP SDK is an official SDK of the LINE Messaging API for PHP.
 Basic Knowledge
 --
 
+- [[Basic bot flow|Basic-bot-flow]]
 - [[Event|Event]]
 - [[Message Builder|Message-builder]]
 
