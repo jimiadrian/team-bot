@@ -1,4 +1,4 @@
-Ss its name suggests, `MessageBuilder` is the builder of message.
+As its name suggests, `MessageBuilder` is the builder of message.
 
 The client of Messaging API (i.e. instance of `\LINE\LINEBot`) uses `MessageBuilder` as parameter to send message. The client of Messaging API builds and encode a JSON string according to `MessageBuilder` and send it as API request.
 
