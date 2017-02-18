@@ -1,6 +1,7 @@
 #### [[LINE Bot PHP SDK wiki|Home]]
 - [[Getting started|Getting-started]]
 - __Basic Knowledge__
+  - [[Basic bot flow|Basic-bot-flow]]
   - [[Event|Event]]
   - [[Message Builder|Message-builder]]
 - __Features and Usage__
