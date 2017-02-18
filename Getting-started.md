@@ -18,10 +18,10 @@ $response = $bot->replyMessage('your-reply-token', $textMessageBuilder);
 Sample projects
 --
 
-### [Echo bot](/examples/EchoBot)
+### [Echo bot](https://github.com/line/line-bot-sdk-php/tree/master/examples/EchoBot)
 
 A sample echo bot implementation.
 
-### [Kitchen sink](/examples/KitchenSink)
+### [Kitchen sink](https://github.com/line/line-bot-sdk-php/tree/master/examples/KitchenSink)
 
 A full-stack LINE Messaging API sample implementation. This sample shows you a practical use of the LINE Messaging API.
