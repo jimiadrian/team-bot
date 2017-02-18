@@ -1,4 +1,5 @@
 `Event` is a request that is sent from the LINE server via webhook. The content of `Event` corresponds to the action of user.
+
 `Event` identifies the event type, and also it can retrieve the content (e.g. message that corresponds the event type, reply token and etc.) from the `Event` .
 
 The types of `Event` is following. Please refer phpdoc for details.
