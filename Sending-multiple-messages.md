@@ -21,3 +21,5 @@ $multipleMessageBuilder->add(new TextMessageBuilder('text1', 'text2'))
                        ->add(new AudioMessageBuilder('https://example.com/audio.mp4', 1000));
 $res = $bot->replyMessage('your-reply-token', $multipleMessageBuilder);
 ```
+
+In this case, it replies text message and audio message (order is kept).
