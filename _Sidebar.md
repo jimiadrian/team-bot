@@ -5,4 +5,5 @@
   - [[Event|Event]]
   - [[Message Builder|Message-builder]]
 - __Features and Usage__
+  - [[Getting user profile|Getting-user-profile]]
   - [[Sending multiple messages|Sending-multiple-messages]]
