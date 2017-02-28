@@ -15,4 +15,5 @@ Basic Knowledge
 Features and Usage 
 --
 
+- [[Getting user profile|Getting-user-profile]]
 - [[Sending multiple messages|Sending-multiple-messages]]
