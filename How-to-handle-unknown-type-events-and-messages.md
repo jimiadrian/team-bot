@@ -30,4 +30,4 @@ if ($event instanceof MessageEvent) {
 }
 ```
 
-`UnknownMessage#getEventBody` returns the array of raw event payload. It makes you to be able to implement the behavior of the event even if this SDK doesn't support the event type　（`UnknownMessage#getMessageBody` is also）.
+`UnknownMessage#getEventBody` returns the array of raw event payload. It makes you to be able to implement the behavior of the event even if this SDK doesn't support the event type（`UnknownMessage#getMessageBody` is also）.
