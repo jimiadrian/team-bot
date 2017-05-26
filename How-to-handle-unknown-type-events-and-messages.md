@@ -1,4 +1,4 @@
-If application receives event that has a type that is not supported by this SDK, it encapsulates the event to `UnknownEvent'. `UnknownMessage` is also the same.
+If application receives event that has a type that is not supported by this SDK, it encapsulates the event to `UnknownEvent`. `UnknownMessage` is also the same.
 
 So if you want to handle unknown type events and messages, you should check type of instance like so;
 
