@@ -7,3 +7,4 @@
 - __Features and Usage__
   - [[Getting user profile|Getting-user-profile]]
   - [[Sending multiple messages|Sending-multiple-messages]]
+  - [[How to handle unknown type events and messages|How-to-handle-unknown-type-events-and-messages]]
